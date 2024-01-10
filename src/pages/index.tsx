@@ -74,7 +74,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black">
       <form
-        className="bg-gray-900 p-8 rounded shadow-md w-2/6"
+        className="bg-gray-900 p-8 rounded shadow-md lg:w-2/6 w-100"
         onSubmit={handleSubmit}
       >
         <div className="mb-4">
